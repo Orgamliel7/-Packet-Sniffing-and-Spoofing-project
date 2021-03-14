@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/C.dir/sniffer.c.o CMakeFiles/C.dir/sniffSpoof.c.o CMakeFiles/C.dir/spoof.c.o  -o C 

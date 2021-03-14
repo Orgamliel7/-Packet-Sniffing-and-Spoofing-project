@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/אור/networkProject BL/C/sniffSpoof.c
+pcap.h
+-
+stdio.h
+-
+arpa/inet.h
+-
+linux/tcp.h
+-
+string.h
+-
+unistd.h
+-
+
+/mnt/c/אור/networkProject BL/C/sniffer.c
+pcap.h
+-
+stdio.h
+-
+arpa/inet.h
+-
+
+/mnt/c/אור/networkProject BL/C/spoof.c
+unistd.h
+-
+stdio.h
+-
+string.h
+-
+sys/socket.h
+-
+netinet/ip.h
+-
+arpa/inet.h
+-
+spoof.h
+/mnt/c/אור/networkProject BL/C/spoof.h
+
+/mnt/c/אור/networkProject BL/C/spoof.h
+sys/param.h
+-
+netinet/in.h
+-
+
